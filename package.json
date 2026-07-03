@@ -1,0 +1,12 @@
+{
+  "name": "among-us-multiplayer",
+  "version": "1.0.0",
+  "description": "Among Us multiplayer — WebSocket game server + browser client",
+  "main": "server.js",
+  "scripts": {
+    "start": "node gta-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}

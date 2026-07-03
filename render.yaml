@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: grand-theft-claude
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: node gta-server.js
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
